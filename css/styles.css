@@ -1,4 +1,77 @@
-h1 {
-    background-color: beige;
-    color: lightseagreen;
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
+
+body {
+    margin: 0;
+    background-color: #19A1AE;
+    height: 100vh;
+}
+
+body .background {
+    position: relative;
+}
+
+h2, p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.circle-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.card .background-texture {
+    background-color: #41CBD3;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-picture {
+    position: relative;
+    bottom: 50px;
+    right: 0;
+}
+
+.card {
+    display: flex;
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-personal-information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personal-information-numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.personal-information-photos, .personal-information-likes, .personal-information-followers {
+    display: flex;
+    flex-direction: column;
+}
+
